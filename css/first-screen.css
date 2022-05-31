@@ -27,10 +27,6 @@ body {
   backdrop-filter: blur(15px);
 }
 
-.main_title p {
-  display: none;
-}
-
 .main_section_1,
 .main_section_2 {
   display: flex;

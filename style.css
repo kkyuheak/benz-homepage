@@ -1,1 +1,7 @@
+@import url(/css/purchase-bar.css);
 @import url(/css/first-screen.css);
+@import url(/css/second-screen.css);
+
+body {
+  background-color: black;
+}
