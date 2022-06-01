@@ -1,8 +1,44 @@
 .second-screen {
-  background: url(/img/두번째\ 화면.png);
-  background-repeat: no-repeat;
-  height: 100%;
   width: 100%;
-  background-size: 50%;
-  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article {
+  display: flex;
+  margin-top: 110px;
+}
+
+.second-screen_box-1 {
+  width: 350px;
+  background-color: white;
+  border-radius: 20px;
+  margin-right: 25px;
+}
+
+.second-screen_box-1 img {
+  width: 350px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.sec-screen_box-article {
+  color: black;
+  padding: 20px;
+}
+
+.sec-screen_box-article h1 {
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+
+.sec-screen_box-article p {
+  font-size: 16px;
+}
+
+.article_title {
+  color: white;
+  margin-top: 30px;
 }
