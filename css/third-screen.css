@@ -1,0 +1,53 @@
+.third-screen img {
+  width: 50vw;
+  position: relative;
+  left: 25%;
+  top: 30px;
+}
+
+.third-screen {
+  position: relative;
+}
+
+.hover_Icon {
+  color: rgb(19, 26, 230);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+}
+
+.hover_Icon:hover {
+  background: url(/img/sec_\(1\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 250px;
+}
+
+/* 
+label {
+  cursor: pointer;
+  color: red;
+}
+
+.box1 {
+  width: 100px;
+  height: 50px;
+  transition: all 0.3s;
+  visibility: hidden;
+}
+
+#toggleIcon:checked ~ .box1 {
+  width: 300px;
+  height: 250px;
+  background: url(/img/sec_\(1\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  visibility: visible;
+}
+
+input {
+  position: fixed;
+  left: -9999px;
+} */
