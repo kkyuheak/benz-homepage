@@ -12,8 +12,8 @@
 .hover_Icon {
   color: rgb(19, 26, 230);
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 56%;
+  left: 36%;
   z-index: 1;
 }
 
@@ -21,8 +21,52 @@
   background: url(/img/sec_\(1\).png);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 300px;
+  width: 400px;
   height: 250px;
+  animation: imgUp 1s ease-in-out;
+}
+
+@keyframes imgUp {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hover_img:hover {
+  animation: textUp 1s ease-in-out;
+}
+
+@keyframes textUp {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hover_Icon:hover i {
+  display: none;
+}
+
+.hover_text {
+  position: absolute;
+  left: 30%;
+  bottom: 75%;
+  background-color: rgb(135, 135, 135);
+  border-radius: 20px;
+  padding: 10px 10px;
+}
+
+.hover_text h2 {
+  margin-bottom: 13px;
+}
+
+.hover_text p {
+  font-weight: 600;
 }
 
 /* 

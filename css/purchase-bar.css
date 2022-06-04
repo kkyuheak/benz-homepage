@@ -3,6 +3,7 @@
   z-index: 1;
   display: flex;
   justify-content: center;
+  opacity: 0.8;
   display: none;
 }
 
@@ -25,7 +26,6 @@
 .purchase_bar p {
   margin-left: 50px;
   font-size: 22px;
-
   color: white;
 }
 

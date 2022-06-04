@@ -12,6 +12,7 @@ body {
 .first_screen {
   background: url(/img/첫화면.png);
   background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   position: relative;
 }
