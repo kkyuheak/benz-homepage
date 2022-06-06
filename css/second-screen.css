@@ -27,6 +27,7 @@
 .sec-screen_box-article {
   color: black;
   padding: 20px;
+  opacity: 0.8;
 }
 
 .sec-screen_box-article h1 {
