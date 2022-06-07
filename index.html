@@ -12,6 +12,7 @@
       src="https://kit.fontawesome.com/92af46884b.js"
       crossorigin="anonymous"
     ></script>
+    <script src="js/hover.js"></script>
   </head>
   <body>
     <nav class="purchase">
@@ -114,32 +115,25 @@
     </div>
 
     <section class="third-screen">
-      <img
-        src="/img/두번째 화면.png"
-        alt=""
-        data-aos="fade-up"
-        data-aos-duration="1000"
-      />
-      <div class="hover_img">
-        <span class="hover_Icon" data-aos="fade-up" data-aos-duration="1000"
-          ><i class="fa-solid fa-circle-notch fa-2x"></i>
-        </span>
-        <div class="hover_text">
-          <h2>스포티한 다이아몬드 라디에이터 그릴</h2>
-          <p>
-            크롬 핀이 장착된 다이아몬드 그릴과 하이그로시 블랙 컬러 도장된
-            디스크 *AMG 라인 적용
-          </p>
+      <div class="third-screen_feature" id="screen_blur">
+        <button onclick="btnClick()" class="third-screen-icon">
+          <i class="fa-regular fa-life-ring fa-2x"></i>
+        </button>
+        <div
+          class="third-screen_feature-hidden"
+          id="ts_fea-hidden"
+          onclick="imgClick()"
+        >
+          <div class="third-screen_feature-hidden_text">
+            <h2>스포티한 다이아몬드 라디에이터 그릴</h2>
+            <p>
+              크롬 핀이 장착된 다이아몬드 그릴과 하이그로시 블랙 컬러 도장된
+              디스크 *AMG 라인 적용
+            </p>
+          </div>
+          <img src="/img/sec_(1).png" alt="" />
         </div>
       </div>
-
-      <!-- <div class="toggle_box">
-        <input type="checkbox" id="toggleIcon" />
-        <label for="toggleIcon" class="toggleIcon"
-          ><i class="fa-solid fa-circle-notch fa-2x"></i
-        ></label>
-        <div class="box1"></div>
-      </div> -->
     </section>
 
     <script>

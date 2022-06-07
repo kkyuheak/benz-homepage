@@ -1,97 +1,57 @@
-.third-screen img {
-  width: 50vw;
-  position: relative;
-  left: 25%;
-  top: 30px;
-}
-
 .third-screen {
-  position: relative;
-}
-
-.hover_Icon {
-  color: rgb(19, 26, 230);
-  position: absolute;
-  top: 56%;
-  left: 36%;
-  z-index: 1;
-}
-
-.hover_Icon:hover {
-  background: url(/img/sec_\(1\).png);
-  background-size: cover;
+  background: url(/img/두번째\ 화면.png);
   background-repeat: no-repeat;
-  width: 400px;
-  height: 250px;
-  animation: imgUp 1s ease-in-out;
+  background-size: 70%;
+  height: 100%;
+  margin-top: 50px;
+  background-position: center;
 }
 
-@keyframes imgUp {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+.third-screen_feature {
+  display: inline;
 }
 
-.hover_img:hover {
-  animation: textUp 1s ease-in-out;
+.third-screen_feature > button {
+  color: rgb(69, 75, 242);
+  position: relative;
+  top: 51%;
+  left: 30%;
+  background-color: rgba(0, 0, 0, 0);
 }
 
-@keyframes textUp {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.hover_Icon:hover i {
+.third-screen_feature-hidden {
+  position: relative;
+  top: 15%;
+  left: 30%;
+  width: 80px;
   display: none;
 }
 
-.hover_text {
-  position: absolute;
-  left: 30%;
-  bottom: 75%;
-  background-color: rgb(135, 135, 135);
+.third-screen_feature-hidden_text {
+  background-color: white;
   border-radius: 20px;
-  padding: 10px 10px;
+  padding: 10px;
+  width: 700px;
+  margin-bottom: 200px;
 }
 
-.hover_text h2 {
-  margin-bottom: 13px;
+.third-screen_feature-hidden_text h2 {
+  margin-bottom: 15px;
 }
 
-.hover_text p {
-  font-weight: 600;
+.third-screen_feature-hidden img {
+  width: 400px;
 }
 
-/* 
-label {
-  cursor: pointer;
-  color: red;
+.third-screen-icon i {
+  animation: iconRotate 4s infinite;
 }
 
-.box1 {
-  width: 100px;
-  height: 50px;
-  transition: all 0.3s;
-  visibility: hidden;
+@keyframes iconRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
-
-#toggleIcon:checked ~ .box1 {
-  width: 300px;
-  height: 250px;
-  background: url(/img/sec_\(1\).png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  visibility: visible;
-}
-
-input {
-  position: fixed;
-  left: -9999px;
-} */
