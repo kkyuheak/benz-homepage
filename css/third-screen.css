@@ -29,6 +29,15 @@
   border: 0;
 }
 
+.third-screen-icon-3 {
+  color: rgb(69, 75, 242);
+  position: relative;
+  top: 37%;
+  left: 54%;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+}
+
 .third-screen_feature-hidden {
   position: relative;
   top: 15%;
@@ -38,6 +47,14 @@
 }
 
 .third-screen_feature-hidden-2 {
+  position: relative;
+  top: 15%;
+  left: 30%;
+  width: 80px;
+  display: none;
+}
+
+.third-screen_feature-hidden-3 {
   position: relative;
   top: 15%;
   left: 30%;
@@ -61,19 +78,34 @@
   margin-bottom: 130px;
 }
 
+.third-screen_feature-hidden_text-3 {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  width: 700px;
+  margin-bottom: 200px;
+}
+
 .third-screen_feature-hidden_text h2,
-.third-screen_feature-hidden_text-2 h2 {
+.third-screen_feature-hidden_text-2 h2,
+.third-screen_feature-hidden_text-3 h2 {
   margin-bottom: 15px;
 }
 
 .third-screen_feature-hidden img,
-.third-screen_feature-hidden-2 img {
+.third-screen_feature-hidden-2 img,
+.third-screen_feature-hidden-3 img {
   width: 400px;
   border-radius: 30px;
 }
 
+.third-screen_feature-hidden-3 img {
+  transform: translate(300px, -130px);
+}
+
 .third-screen-icon i,
-.third-screen-icon-2 i {
+.third-screen-icon-2 i,
+.third-screen-icon-3 i {
   animation: iconRotate 4s infinite;
 }
 
