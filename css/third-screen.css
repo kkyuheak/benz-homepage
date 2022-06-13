@@ -38,6 +38,15 @@
   border: 0;
 }
 
+.third-screen-icon-4 {
+  color: rgb(69, 75, 242);
+  position: relative;
+  top: 27%;
+  left: 57%;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+}
+
 .third-screen_feature-hidden {
   position: relative;
   top: 15%;
@@ -62,12 +71,20 @@
   display: none;
 }
 
+.third-screen_feature-hidden-4 {
+  position: relative;
+  top: 15%;
+  left: 30%;
+  width: 80px;
+  display: none;
+}
+
 .third-screen_feature-hidden_text {
   background-color: white;
   border-radius: 20px;
   padding: 10px;
   width: 700px;
-  margin-bottom: 200px;
+  margin-bottom: 140px;
 }
 
 .third-screen_feature-hidden_text-2 {
@@ -75,7 +92,7 @@
   border-radius: 20px;
   padding: 10px;
   width: 700px;
-  margin-bottom: 130px;
+  margin-bottom: 110px;
 }
 
 .third-screen_feature-hidden_text-3 {
@@ -86,15 +103,25 @@
   margin-bottom: 200px;
 }
 
+.third-screen_feature-hidden_text-4 {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  width: 700px;
+  margin-bottom: 120px;
+}
+
 .third-screen_feature-hidden_text h2,
 .third-screen_feature-hidden_text-2 h2,
-.third-screen_feature-hidden_text-3 h2 {
+.third-screen_feature-hidden_text-3 h2,
+.third-screen_feature-hidden_text-4 h2 {
   margin-bottom: 15px;
 }
 
 .third-screen_feature-hidden img,
 .third-screen_feature-hidden-2 img,
-.third-screen_feature-hidden-3 img {
+.third-screen_feature-hidden-3 img,
+.third-screen_feature-hidden-4 img {
   width: 400px;
   border-radius: 30px;
 }
@@ -105,7 +132,8 @@
 
 .third-screen-icon i,
 .third-screen-icon-2 i,
-.third-screen-icon-3 i {
+.third-screen-icon-3 i,
+.third-screen-icon-4 i {
   animation: iconRotate 4s infinite;
 }
 
@@ -116,4 +144,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.third-screen-icon i:hover,
+.third-screen-icon-2 i:hover,
+.third-screen-icon-3 i:hover,
+.third-screen-icon-4 i:hover {
+  cursor: pointer;
 }

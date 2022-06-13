@@ -29,7 +29,7 @@
   </head>
 
   <body>
-    <header>
+    <header id="header">
       <ul id="menu">
         <a href="#main">
           <img id="logo" src="../img/Benz-logo.png" />
@@ -128,7 +128,7 @@
     </nav>
 
     <div class="first_screen" data-aos="zoom-in" data-aos-duration="3000">
-      <div class="main_title" data-aos="fade-up">
+      <div class="main_title">
         <p>The A-Class Hatch</p>
       </div>
 
@@ -223,13 +223,13 @@
       data-aos-duration="1000"
     >
       <div class="third-screen_feature" id="screen_blur">
-        <button onclick="btnClick(), backblur()" class="third-screen-icon">
-          <i class="fa-regular fa-life-ring fa-2x"></i>
+        <button onclick="btnClick(), iconNone()" class="third-screen-icon">
+          <i class="fa-regular fa-life-ring fa-2x" class="icon"></i>
         </button>
         <div
           class="third-screen_feature-hidden"
           id="ts_fea-hidden"
-          onclick="imgClick()"
+          onclick="imgClick(), iconView()"
         >
           <div class="third-screen_feature-hidden_text">
             <h2>스포티한 다이아몬드 라디에이터 그릴</h2>
@@ -243,46 +243,68 @@
       </div>
 
       <div class="third-screen_feature" id="screen_blur">
-        <button class="third-screen-icon-2" onclick="btnClick2()">
-          <i class="fa-regular fa-life-ring fa-2x"></i>
+        <button class="third-screen-icon-2" onclick="btnClick2(), iconNone()">
+          <i class="fa-regular fa-life-ring fa-2x" class="icon"></i>
         </button>
-      </div>
-      <div
-        class="third-screen_feature-hidden-2"
-        id="ts_fea-hidden-2"
-        onclick="imgClick2()"
-      >
-        <div class="third-screen_feature-hidden_text-2">
-          <h2>LED 고성능 헤드램프</h2>
-          <p>
-            최적의 시야 보장: LED 고성능 헤드램프는 LED를 현재 교통 상황에 따라
-            개별 조정합니다. 부분 상향등은 다른 운전자가 눈부시지 않도록 조명을
-            감광하며, 코너링 및 커브 라이트도 해당 영역에 조명을 비추어 최적의
-            시야를 확보하여, 위험을 더 빨리 감지합니다.
-          </p>
+        <div
+          class="third-screen_feature-hidden-2"
+          id="ts_fea-hidden-2"
+          onclick="imgClick2(), iconView()"
+        >
+          <div class="third-screen_feature-hidden_text-2">
+            <h2>LED 고성능 헤드램프</h2>
+            <p>
+              최적의 시야 보장: LED 고성능 헤드램프는 LED를 현재 교통 상황에
+              따라 개별 조정합니다. 부분 상향등은 다른 운전자가 눈부시지 않도록
+              조명을 감광하며, 코너링 및 커브 라이트도 해당 영역에 조명을 비추어
+              최적의 시야를 확보하여, 위험을 더 빨리 감지합니다.
+            </p>
+          </div>
+          <img src="img/sec_(2).png" alt="" />
         </div>
-        <img src="img/sec_(2).png" alt="" />
       </div>
 
       <div class="third-screen_feature" id="screen_blur">
-        <button class="third-screen-icon-3" onclick="btnClick3()">
-          <i class="fa-regular fa-life-ring fa-2x"></i>
+        <button class="third-screen-icon-3" onclick="btnClick3(), iconNone()">
+          <i class="fa-regular fa-life-ring fa-2x" class="icon"></i>
         </button>
-      </div>
-      <div
-        class="third-screen_feature-hidden-3"
-        id="ts_fea-hidden-3"
-        onclick="imgClick3()"
-      >
-        <div class="third-screen_feature-hidden_text-3">
-          <h2>AMG 나이트 패키지</h2>
-          <p>
-            AMG 나이트 패키지는 한층 감성적인 멋을 발휘하여 차량에 스포티한
-            감성을 더해줍니다. 나이트 패키지만의 다양한 블랙 하이그로시 디자인을
-            만나보실 수 있습니다.
-          </p>
+        <div
+          class="third-screen_feature-hidden-3"
+          id="ts_fea-hidden-3"
+          onclick="imgClick3(), iconView()"
+        >
+          <div class="third-screen_feature-hidden_text-3">
+            <h2>AMG 나이트 패키지</h2>
+            <p>
+              AMG 나이트 패키지는 한층 감성적인 멋을 발휘하여 차량에 스포티한
+              감성을 더해줍니다. 나이트 패키지만의 다양한 블랙 하이그로시
+              디자인을 만나보실 수 있습니다.
+            </p>
+          </div>
+          <img src="img/sec_(3).png" alt="" />
         </div>
-        <img src="img/sec_(3).png" alt="" />
+      </div>
+
+      <div class="third-screen_feature" id="screen_blur">
+        <button class="third-screen-icon-4" onclick="btnClick4(), iconNone()">
+          <i class="fa-regular fa-life-ring fa-2x" class="icon"></i>
+        </button>
+
+        <div
+          class="third-screen_feature-hidden-4"
+          id="ts_fea-hidden-4"
+          onclick="imgClick4(), iconView()"
+        >
+          <div class="third-screen_feature-hidden_text-4">
+            <h2>파노라마 슬라이딩 선루프</h2>
+            <p>
+              슬라이딩 선루프를 통해 카브리올레 혹은 로드스터와 같은 오픈 에어
+              드라이빙을 느낄 수 있습니다. 선루프가 닫혀 있을 때도 실내 공간을
+              더욱 밝게 해주어 경쾌하고 편안한 기분을 줍니다.
+            </p>
+          </div>
+          <img src="img/sec_(4).png" alt="" />
+        </div>
       </div>
     </section>
 
