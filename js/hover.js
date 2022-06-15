@@ -59,3 +59,8 @@ const iconView = function () {
   const UpIcon4 = document.querySelector(".third-screen-icon-4");
   UpIcon4.style.display = "inline";
 };
+
+const backblur = function () {
+  const backgrBlur = document.querySelector(".ccc");
+  backgrBlur.style.filter = "blur(7px)";
+};

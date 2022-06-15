@@ -1,10 +1,9 @@
-.third-screen {
-  background: url(/img/두번째\ 화면.png);
-  background-repeat: no-repeat;
-  background-size: 70%;
+.ccc {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
   height: 100%;
-  margin-top: 50px;
-  background-position: center;
 }
 
 .third-screen_feature {
@@ -13,7 +12,7 @@
 
 .third-screen-icon {
   color: rgb(69, 75, 242);
-  position: relative;
+  position: absolute;
   top: 51%;
   left: 30%;
   background-color: rgba(0, 0, 0, 0);
@@ -22,7 +21,7 @@
 
 .third-screen-icon-2 {
   color: rgb(69, 75, 242);
-  position: relative;
+  position: absolute;
   top: 49%;
   left: 36%;
   background-color: rgba(0, 0, 0, 0);
@@ -31,7 +30,7 @@
 
 .third-screen-icon-3 {
   color: rgb(69, 75, 242);
-  position: relative;
+  position: absolute;
   top: 37%;
   left: 54%;
   background-color: rgba(0, 0, 0, 0);
@@ -40,7 +39,7 @@
 
 .third-screen-icon-4 {
   color: rgb(69, 75, 242);
-  position: relative;
+  position: absolute;
   top: 27%;
   left: 57%;
   background-color: rgba(0, 0, 0, 0);
@@ -48,15 +47,16 @@
 }
 
 .third-screen_feature-hidden {
-  position: relative;
+  position: absolute;
   top: 15%;
   left: 30%;
   width: 80px;
   display: none;
+  z-index: 3;
 }
 
 .third-screen_feature-hidden-2 {
-  position: relative;
+  position: absolute;
   top: 15%;
   left: 30%;
   width: 80px;
@@ -64,7 +64,7 @@
 }
 
 .third-screen_feature-hidden-3 {
-  position: relative;
+  position: absolute;
   top: 15%;
   left: 30%;
   width: 80px;
@@ -72,7 +72,7 @@
 }
 
 .third-screen_feature-hidden-4 {
-  position: relative;
+  position: absolute;
   top: 15%;
   left: 30%;
   width: 80px;
