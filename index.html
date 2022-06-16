@@ -25,7 +25,6 @@
       src="https://kit.fontawesome.com/92af46884b.js"
       crossorigin="anonymous"
     ></script>
-    <script src="js/hover.js"></script>
   </head>
 
   <body>
@@ -225,15 +224,16 @@
       <img class="ccc" src="img/두번째 화면.png" alt="" />
       <div class="third-screen_feature" id="screen_blur">
         <button
-          onclick="btnClick(), iconNone(), backblur(), backNoBlur()"
+          onclick="btnClick(), iconNone(), backblur()"
           class="third-screen-icon"
+          id="iicon"
         >
           <i class="fa-regular fa-life-ring fa-2x" class="icon"></i>
         </button>
         <div
           class="third-screen_feature-hidden"
           id="ts_fea-hidden"
-          onclick="imgClick(), iconView()"
+          onclick="imgClick(), iconView(), backNONOblur()"
         >
           <div class="third-screen_feature-hidden_text">
             <h2>스포티한 다이아몬드 라디에이터 그릴</h2>
@@ -247,13 +247,16 @@
       </div>
 
       <div class="third-screen_feature" id="screen_blur">
-        <button class="third-screen-icon-2" onclick="btnClick2(), iconNone()">
+        <button
+          class="third-screen-icon-2"
+          onclick="btnClick2(), iconNone(), backblur()"
+        >
           <i class="fa-regular fa-life-ring fa-2x" class="icon"></i>
         </button>
         <div
           class="third-screen_feature-hidden-2"
           id="ts_fea-hidden-2"
-          onclick="imgClick2(), iconView()"
+          onclick="imgClick2(), iconView(), backNONOblur()"
         >
           <div class="third-screen_feature-hidden_text-2">
             <h2>LED 고성능 헤드램프</h2>
@@ -269,13 +272,16 @@
       </div>
 
       <div class="third-screen_feature" id="screen_blur">
-        <button class="third-screen-icon-3" onclick="btnClick3(), iconNone()">
+        <button
+          class="third-screen-icon-3"
+          onclick="btnClick3(), iconNone(), backblur()"
+        >
           <i class="fa-regular fa-life-ring fa-2x" class="icon"></i>
         </button>
         <div
           class="third-screen_feature-hidden-3"
           id="ts_fea-hidden-3"
-          onclick="imgClick3(), iconView()"
+          onclick="imgClick3(), iconView(), backNONOblur()"
         >
           <div class="third-screen_feature-hidden_text-3">
             <h2>AMG 나이트 패키지</h2>
@@ -290,14 +296,17 @@
       </div>
 
       <div class="third-screen_feature" id="screen_blur">
-        <button class="third-screen-icon-4" onclick="btnClick4(), iconNone()">
+        <button
+          class="third-screen-icon-4"
+          onclick="btnClick4(), iconNone(), backblur()"
+        >
           <i class="fa-regular fa-life-ring fa-2x" class="icon"></i>
         </button>
 
         <div
           class="third-screen_feature-hidden-4"
           id="ts_fea-hidden-4"
-          onclick="imgClick4(), iconView()"
+          onclick="imgClick4(), iconView(), backNONOblur()"
         >
           <div class="third-screen_feature-hidden_text-4">
             <h2>파노라마 슬라이딩 선루프</h2>
@@ -312,8 +321,24 @@
       </div>
     </section>
 
+    <div class="fourth-screen">
+      <img class="in-screen" src="img/네번째화면.png" alt="" />
+      <div class="fourth-screen_feature">
+        <button class="fr-icon">
+          <i class="fa-thin fa-atom fa-2x"></i>
+        </button>
+        <div class="fourth-screen_feature-text">
+          <h2>가죽 사양의 다기능 스포츠 스티어링 휠</h2>
+          <p>
+            세련된 가죽 커버가 다기능 스포츠 스티어링 휠의 품격을 더하며 차량을
+            더욱 돋보이게 해줍니다.
+          </p>
+        </div>
+      </div>
+    </div>
     <script>
       AOS.init();
     </script>
+    <script src="js/hover.js"></script>
   </body>
 </html>

@@ -2,8 +2,9 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 80%;
   height: 100%;
+  margin-bottom: 200px;
 }
 
 .third-screen_feature {
@@ -13,8 +14,8 @@
 .third-screen-icon {
   color: rgb(69, 75, 242);
   position: absolute;
-  top: 51%;
-  left: 30%;
+  top: 52%;
+  left: 28%;
   background-color: rgba(0, 0, 0, 0);
   border: 0;
 }
@@ -31,8 +32,8 @@
 .third-screen-icon-3 {
   color: rgb(69, 75, 242);
   position: absolute;
-  top: 37%;
-  left: 54%;
+  top: 33.5%;
+  left: 58.5%;
   background-color: rgba(0, 0, 0, 0);
   border: 0;
 }
@@ -40,8 +41,8 @@
 .third-screen-icon-4 {
   color: rgb(69, 75, 242);
   position: absolute;
-  top: 27%;
-  left: 57%;
+  top: 21%;
+  left: 64%;
   background-color: rgba(0, 0, 0, 0);
   border: 0;
 }
@@ -49,10 +50,9 @@
 .third-screen_feature-hidden {
   position: absolute;
   top: 15%;
-  left: 30%;
+  left: 26%;
   width: 80px;
   display: none;
-  z-index: 3;
 }
 
 .third-screen_feature-hidden-2 {
@@ -65,7 +65,7 @@
 
 .third-screen_feature-hidden-3 {
   position: absolute;
-  top: 15%;
+  top: 11%;
   left: 30%;
   width: 80px;
   display: none;
@@ -73,7 +73,7 @@
 
 .third-screen_feature-hidden-4 {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 30%;
   width: 80px;
   display: none;
@@ -128,6 +128,10 @@
 
 .third-screen_feature-hidden-3 img {
   transform: translate(300px, -130px);
+}
+
+.third-screen_feature-hidden-4 img {
+  transform: translate(300px, -90px);
 }
 
 .third-screen-icon i,

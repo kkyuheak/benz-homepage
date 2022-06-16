@@ -1,0 +1,13 @@
+.in-screen {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 100%;
+}
+
+.fr-icon {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(2, 248, 158);
+  position: absolute;
+}

@@ -64,3 +64,8 @@ const backblur = function () {
   const backgrBlur = document.querySelector(".ccc");
   backgrBlur.style.filter = "blur(7px)";
 };
+
+const backNONOblur = function () {
+  const backnnnblur = document.querySelector(".ccc");
+  backnnnblur.style.filter = "blur(0px)";
+};
