@@ -6,8 +6,78 @@
   height: 100%;
 }
 
+.fourth-screen_feature {
+  display: inline;
+}
+
 .fr-icon {
   background-color: rgba(0, 0, 0, 0);
   color: rgb(2, 248, 158);
   position: absolute;
+  left: 32%;
+  top: 366%;
+  border: 0;
+  animation: iconUpDown 2s infinite;
+}
+
+.fr-icon-2 {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(248, 166, 2);
+  position: absolute;
+  left: 46%;
+  top: 350%;
+  border: 0;
+}
+
+.fourth-screen_feature-text {
+  color: black;
+  background-color: white;
+  width: 700px;
+  border-radius: 15px;
+  padding: 10px;
+  position: relative;
+  left: 20%;
+  bottom: 750px;
+  display: none;
+}
+
+.fourth-screen_feature-text-2 {
+  color: black;
+  background-color: white;
+  width: 700px;
+  border-radius: 15px;
+  padding: 10px;
+  position: relative;
+  left: 30%;
+  bottom: 800px;
+  display: none;
+}
+
+.fourth-screen_feature-text h2 {
+  margin-bottom: 20px;
+}
+
+.fourth-screen_feature-text-2 h2 {
+  margin-bottom: 18px;
+}
+
+.fr-icon:hover {
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.fr-icon:hover + .fourth-screen_feature-text {
+  display: block;
+}
+
+@keyframes iconUpDown {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }

@@ -324,10 +324,10 @@
     <div class="fourth-screen">
       <img class="in-screen" src="img/네번째화면.png" alt="" />
       <div class="fourth-screen_feature">
-        <button class="fr-icon">
-          <i class="fa-thin fa-atom fa-2x"></i>
+        <button class="fr-icon" id="fr-icon_button">
+          <i class="fa-solid fa-atom fa-3x"></i>
         </button>
-        <div class="fourth-screen_feature-text">
+        <div class="fourth-screen_feature-text" id="fr-hidden-text">
           <h2>가죽 사양의 다기능 스포츠 스티어링 휠</h2>
           <p>
             세련된 가죽 커버가 다기능 스포츠 스티어링 휠의 품격을 더하며 차량을
@@ -335,10 +335,24 @@
           </p>
         </div>
       </div>
+
+      <div class="fourth-screen_feature">
+        <button class="fr-icon-2" id="fr-icon_button-2">
+          <i class="fa-solid fa-atom fa-3x"></i>
+        </button>
+        <div class="fourth-screen_feature-text-2" id="fr-hidden-text-2">
+          <h2>와이드 스크린 디자인</h2>
+          <p>
+            멀티미디어/터치 기능을 제공하는 10.25인치 고해상도의 디지털 계기판이
+            기본 사양으로 제공됩니다.
+          </p>
+        </div>
+      </div>
     </div>
     <script>
       AOS.init();
     </script>
+    <script src="js/click.js"></script>
     <script src="js/hover.js"></script>
   </body>
 </html>
