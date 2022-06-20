@@ -27,6 +27,17 @@
   left: 46%;
   top: 350%;
   border: 0;
+  animation: iconUpDown 2s infinite;
+}
+
+.fr-icon-3 {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(2, 170, 248);
+  position: absolute;
+  left: 54%;
+  top: 382%;
+  border: 0;
+  animation: iconUpDown 2s infinite;
 }
 
 .fourth-screen_feature-text {
@@ -53,6 +64,18 @@
   display: none;
 }
 
+.fourth-screen_feature-text-3 {
+  color: black;
+  background-color: white;
+  width: 700px;
+  border-radius: 15px;
+  padding: 14px;
+  position: relative;
+  left: 30%;
+  bottom: 500px;
+  display: none;
+}
+
 .fourth-screen_feature-text h2 {
   margin-bottom: 20px;
 }
@@ -61,13 +84,28 @@
   margin-bottom: 18px;
 }
 
+.fourth-screen_feature-text-3 h2 {
+  margin-bottom: 18px;
+}
+
 .fr-icon:hover {
   cursor: pointer;
-  visibility: hidden;
 }
 
 .fr-icon:hover + .fourth-screen_feature-text {
   display: block;
+}
+
+.fr-icon-2:hover + .fourth-screen_feature-text-2 {
+  display: block;
+}
+
+.fr-icon-3:hover + .fourth-screen_feature-text-3 {
+  display: block;
+}
+
+.fourth-screen_feature-text {
+  transition: all 3s ease;
 }
 
 @keyframes iconUpDown {
