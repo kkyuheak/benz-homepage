@@ -9,6 +9,7 @@
 .article {
   display: flex;
   margin-top: 110px;
+  list-style: none;
 }
 
 .second-screen_box-1 {
