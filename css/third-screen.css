@@ -80,42 +80,47 @@
 }
 
 .third-screen_feature-hidden_text {
-  background-color: white;
-  border-radius: 20px;
-  padding: 10px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 15px;
   width: 700px;
   margin-bottom: 140px;
+  opacity: 0.8;
+  color: white;
 }
 
 .third-screen_feature-hidden_text-2 {
-  background-color: white;
-  border-radius: 20px;
-  padding: 10px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 20px;
   width: 700px;
   margin-bottom: 110px;
+  color: white;
 }
 
 .third-screen_feature-hidden_text-3 {
-  background-color: white;
-  border-radius: 20px;
+  background-color: black;
+  border-radius: 10px;
   padding: 10px;
   width: 700px;
   margin-bottom: 200px;
+  color: white;
 }
 
 .third-screen_feature-hidden_text-4 {
-  background-color: white;
-  border-radius: 20px;
+  background-color: black;
+  border-radius: 10px;
   padding: 10px;
   width: 700px;
   margin-bottom: 120px;
+  color: white;
 }
 
 .third-screen_feature-hidden_text h2,
 .third-screen_feature-hidden_text-2 h2,
 .third-screen_feature-hidden_text-3 h2,
 .third-screen_feature-hidden_text-4 h2 {
-  margin-bottom: 15px;
+  margin-bottom: 40px;
 }
 
 .third-screen_feature-hidden img,
@@ -155,4 +160,9 @@
 .third-screen-icon-3 i:hover,
 .third-screen-icon-4 i:hover {
   cursor: pointer;
+}
+
+.backBlack {
+  background-color: black;
+  opacity: 0.5;
 }

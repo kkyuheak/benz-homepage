@@ -69,3 +69,15 @@ const backNONOblur = function () {
   const backnnnblur = document.querySelector(".ccc");
   backnnnblur.style.filter = "blur(0px)";
 };
+
+const iiconClick = document.getElementById("iicon");
+const textClick = document.getElementById("ts_fea-hidden");
+const backgroundBlack = document.querySelector(".ccc");
+
+iiconClick.addEventListener("click", () => {
+  backgroundBlack.classList.add("backBlack");
+});
+
+textClick.addEventListener("click", () => {
+  backgroundBlack.classList.remove("backBlack");
+});
