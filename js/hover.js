@@ -8,6 +8,7 @@ const msOverIcon5 = document.getElementById("fr-icon_button-5");
 
 msOverIcon.addEventListener("mouseover", () => {
   backgrOver.style.filter = "blur(7px)";
+  // backgroundBlack.classList.add("backBlack_2");
 });
 
 msOverIcon.addEventListener("mouseleave", () => {
