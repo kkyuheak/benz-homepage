@@ -71,13 +71,49 @@ const backNONOblur = function () {
 };
 
 const iiconClick = document.getElementById("iicon");
+const iiconClick2 = document.getElementById("iicon-2");
+const iiconClick3 = document.getElementById("iicon-3");
+const iiconClick4 = document.getElementById("iicon-4");
 const textClick = document.getElementById("ts_fea-hidden");
+const textClick2 = document.getElementById("ts_fea-hidden-2");
+const textClick3 = document.getElementById("ts_fea-hidden-3");
+const textClick4 = document.getElementById("ts_fea-hidden-4");
 const backgroundBlack = document.querySelector(".ccc");
 
-iiconClick.addEventListener("click", () => {
+// iiconClick.addEventListener("click", () => {
+//   backgroundBlack.classList.add("backBlack");
+// });
+
+function textAni() {
+  iiconClick.addEventListener("click", () => {
+    backgroundBlack.classList.add("backBlack");
+  });
+}
+
+textClick.addEventListener("click", () => {
+  backgroundBlack.classList.remove("backBlack");
+});
+
+iiconClick2.addEventListener("click", () => {
   backgroundBlack.classList.add("backBlack");
 });
 
-textClick.addEventListener("click", () => {
+textClick2.addEventListener("click", () => {
+  backgroundBlack.classList.remove("backBlack");
+});
+
+iiconClick3.addEventListener("click", () => {
+  backgroundBlack.classList.add("backBlack");
+});
+
+textClick3.addEventListener("click", () => {
+  backgroundBlack.classList.remove("backBlack");
+});
+
+iiconClick4.addEventListener("click", () => {
+  backgroundBlack.classList.add("backBlack");
+});
+
+textClick4.addEventListener("click", () => {
   backgroundBlack.classList.remove("backBlack");
 });
