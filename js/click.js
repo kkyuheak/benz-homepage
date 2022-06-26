@@ -84,11 +84,9 @@ const backgroundBlack = document.querySelector(".ccc");
 //   backgroundBlack.classList.add("backBlack");
 // });
 
-function textAni() {
-  iiconClick.addEventListener("click", () => {
-    backgroundBlack.classList.add("backBlack");
-  });
-}
+iiconClick.addEventListener("click", () => {
+  backgroundBlack.classList.add("backBlack");
+});
 
 textClick.addEventListener("click", () => {
   backgroundBlack.classList.remove("backBlack");

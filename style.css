@@ -4,9 +4,10 @@
 @import url(/css/second-screen.css);
 @import url(/css/third-screen.css);
 @import url(/css/fourth-screen.css);
+@import url(/css/five-screen.css);
 
 body {
   background-color: black;
-  font-family: "noto serif display";
-  font-family: "noto serif KR";
+  font-family: "noto serif display", serif;
+  font-family: "noto serif KR", serif;
 }
