@@ -2,6 +2,9 @@
   /* margin-bottom: 5000px; */
   /* height: 100vh; */
   padding-bottom: 500px;
+  width: 100%;
+  margin: 0 auto;
+  /* overflow: hidden; */
 }
 
 .five-screen_title {
@@ -12,24 +15,41 @@
   font-size: 25px;
 }
 
-.five-main_feature {
+.five-main_feature,
+.five-main_feature-2 {
   color: white;
-  padding-left: 50px;
+  /* padding-left: 50px; */
+  display: flex;
+  justify-content: center;
+  /* margin: auto; */
 }
 
-.five-main > img {
-  width: 550px;
+.five-main_feature img,
+.five-main_feature-2 img {
+  width: 500px;
   height: 350px;
   margin-right: 50px;
 }
 
 .five-main {
+  width: 100%;
+  /* height: 30vh; */
   display: flex;
   justify-content: center;
 }
 
-.five-main_text {
-  padding-top: 100px;
-  margin-bottom: 50px;
-  font-size: 19px;
+.ttt {
+  padding-left: 100px;
+  display: inline-flex;
+}
+.ttt p {
+  font-size: 20px;
+}
+
+.five-main_title {
+  padding-bottom: 100px;
+}
+
+.five-main_text_2 {
+  padding-top: 40px;
 }
