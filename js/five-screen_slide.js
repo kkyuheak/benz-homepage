@@ -26,3 +26,13 @@ prevBtn.addEventListener("click", () => {
     fiveMain.style.transform = "translateX(" + -size * counter + "px)";
   }
 });
+
+setInterval(() => {
+  if (counter < mainItem.length - 1) {
+    counter++;
+    fiveMain.style.transform = "translateX(" + -size * counter + "px)";
+  } else if (counter === mainItem.length - 1) {
+    counter = 0;
+    fiveMain.style.transform = "translateX(" + -size * counter + "px)";
+  }
+}, 4000);
