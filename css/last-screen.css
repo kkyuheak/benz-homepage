@@ -11,7 +11,7 @@
   text-align: center;
   padding: 10px 0px;
   margin-bottom: 20px;
-  margin-left: 200px;
+  /* margin-left: 200px; */
   font-weight: bold;
 }
 
@@ -61,9 +61,11 @@
 }
 
 .last-screen_main {
+  margin-left: 150px;
+  margin-top: 100px;
+}
+
+.ddd {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  bottom: 530px;
+  justify-content: center;
 }
