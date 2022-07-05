@@ -87,3 +87,44 @@ $(() => {
     $(".fourth-screen_feature-text-5").slideUp();
   });
 });
+
+const linkHover = document.querySelector(".link-screen_section1");
+const linkHover2 = document.querySelector(".link-screen_section2");
+const linkHover3 = document.querySelector(".link-screen_section3");
+const linkHover4 = document.querySelector(".link-screen_section4");
+const link = document.getElementById("section_link1");
+const link2 = document.getElementById("section_link2");
+const link3 = document.getElementById("section_link3");
+const link4 = document.getElementById("section_link4");
+
+linkHover.addEventListener("mouseover", () => {
+  link.style.textDecoration = "underline";
+});
+
+linkHover.addEventListener("mouseleave", () => {
+  link.style.textDecoration = "none";
+});
+
+linkHover2.addEventListener("mouseover", () => {
+  link2.style.textDecoration = "underline";
+});
+
+linkHover2.addEventListener("mouseleave", () => {
+  link2.style.textDecoration = "none";
+});
+
+linkHover3.addEventListener("mouseover", () => {
+  link3.style.textDecoration = "underline";
+});
+
+linkHover3.addEventListener("mouseleave", () => {
+  link3.style.textDecoration = "none";
+});
+
+linkHover4.addEventListener("mouseover", () => {
+  link4.style.textDecoration = "underline";
+});
+
+linkHover4.addEventListener("mouseleave", () => {
+  link4.style.textDecoration = "none";
+});
