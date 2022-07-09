@@ -49,42 +49,93 @@ msOverIcon5.addEventListener("mouseleave", () => {
 $(() => {
   $(".fr-icon").mouseover(() => {
     $(".fourth-screen_feature-text").slideDown();
+    // $(".fr-icon").slideUp();
+    $(".fr-icon").addClass("disNone");
+    $(".fr-icon-2").addClass("disNone");
+    $(".fr-icon-3").addClass("disNone");
+    $(".fr-icon-4").addClass("disNone");
+    $(".fr-icon-5").addClass("disNone");
   });
 
   $(".fr-icon").mouseleave(() => {
     $(".fourth-screen_feature-text").slideUp();
+    $(".fr-icon").removeClass("disNone");
+    $(".fr-icon-2").removeClass("disNone");
+    $(".fr-icon-3").removeClass("disNone");
+    $(".fr-icon-4").removeClass("disNone");
+    $(".fr-icon-5").removeClass("disNone");
   });
 
   $(".fr-icon-2").mouseover(() => {
     $(".fourth-screen_feature-text-2").slideDown();
+    $(".fr-icon").addClass("disNone");
+    $(".fr-icon-2").addClass("disNone");
+    $(".fr-icon-3").addClass("disNone");
+    $(".fr-icon-4").addClass("disNone");
+    $(".fr-icon-5").addClass("disNone");
   });
 
   $(".fr-icon-2").mouseleave(() => {
     $(".fourth-screen_feature-text-2").slideUp();
+    $(".fr-icon").removeClass("disNone");
+    $(".fr-icon-2").removeClass("disNone");
+    $(".fr-icon-3").removeClass("disNone");
+    $(".fr-icon-4").removeClass("disNone");
+    $(".fr-icon-5").removeClass("disNone");
   });
 
   $(".fr-icon-3").mouseover(() => {
     $(".fourth-screen_feature-text-3").slideDown();
+    $(".fr-icon").addClass("disNone");
+    $(".fr-icon-2").addClass("disNone");
+    $(".fr-icon-3").addClass("disNone");
+    $(".fr-icon-4").addClass("disNone");
+    $(".fr-icon-5").addClass("disNone");
   });
 
   $(".fr-icon-3").mouseleave(() => {
     $(".fourth-screen_feature-text-3").slideUp();
+    $(".fr-icon").removeClass("disNone");
+    $(".fr-icon-2").removeClass("disNone");
+    $(".fr-icon-3").removeClass("disNone");
+    $(".fr-icon-4").removeClass("disNone");
+    $(".fr-icon-5").removeClass("disNone");
   });
 
   $(".fr-icon-4").mouseover(() => {
     $(".fourth-screen_feature-text-4").slideDown();
+    $(".fr-icon").addClass("disNone");
+    $(".fr-icon-2").addClass("disNone");
+    $(".fr-icon-3").addClass("disNone");
+    $(".fr-icon-4").addClass("disNone");
+    $(".fr-icon-5").addClass("disNone");
   });
 
   $(".fr-icon-4").mouseleave(() => {
     $(".fourth-screen_feature-text-4").slideUp();
+    $(".fr-icon").removeClass("disNone");
+    $(".fr-icon-2").removeClass("disNone");
+    $(".fr-icon-3").removeClass("disNone");
+    $(".fr-icon-4").removeClass("disNone");
+    $(".fr-icon-5").removeClass("disNone");
   });
 
   $(".fr-icon-5").mouseover(() => {
     $(".fourth-screen_feature-text-5").slideDown();
+    $(".fr-icon").addClass("disNone");
+    $(".fr-icon-2").addClass("disNone");
+    $(".fr-icon-3").addClass("disNone");
+    $(".fr-icon-4").addClass("disNone");
+    $(".fr-icon-5").addClass("disNone");
   });
 
   $(".fr-icon-5").mouseleave(() => {
     $(".fourth-screen_feature-text-5").slideUp();
+    $(".fr-icon").removeClass("disNone");
+    $(".fr-icon-2").removeClass("disNone");
+    $(".fr-icon-3").removeClass("disNone");
+    $(".fr-icon-4").removeClass("disNone");
+    $(".fr-icon-5").removeClass("disNone");
   });
 });
 

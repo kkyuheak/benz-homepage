@@ -149,3 +149,11 @@
   background-color: black;
   opacity: 0.5;
 } */
+
+.disNone {
+  color: rgba(0, 0, 0, 0);
+}
+
+.disBlock {
+  display: block;
+}
