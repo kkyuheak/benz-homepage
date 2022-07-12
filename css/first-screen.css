@@ -120,3 +120,27 @@ body {
   top: 50%;
   left: 33%;
 }
+
+.scroll-icon {
+  color: white;
+  z-index: 99;
+  opacity: 0.4;
+  position: absolute;
+  left: 50%;
+  top: 93%;
+  animation-name: scrollIcon;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes scrollIcon {
+  0% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.4;
+  }
+}
