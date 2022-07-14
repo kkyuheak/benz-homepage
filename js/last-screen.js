@@ -97,7 +97,7 @@ function Btn8backWhite() {
 }
 
 sideBtn1.addEventListener("click", () => {
-  Btn1backWhite(sideBtn1);
+  Btn1backWhite();
   Btn2backBlack(sideBtn2);
   Btn3backBlack(sideBtn3);
   Btn4backBlack(sideBtn4);
